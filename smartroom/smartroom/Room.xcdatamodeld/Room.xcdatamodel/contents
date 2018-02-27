@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="Profile" representedClassName=".Profile" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doorTrigger" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="maxBrightness" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="onAmbientLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timeToBrightness" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="profilecollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProfileCollection" inverseName="profiles" inverseEntity="ProfileCollection" syncable="YES"/>
+    </entity>
+    <entity name="ProfileCollection" representedClassName=".ProfileCollection" syncable="YES">
+        <relationship name="profiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Profile" inverseName="profilecollection" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Profile" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="ProfileCollection" positionX="-54" positionY="45" width="128" height="60"/>
+    </elements>
+</model>

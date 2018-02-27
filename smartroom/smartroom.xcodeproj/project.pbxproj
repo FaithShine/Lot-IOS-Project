@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44F9FEF1DD81FAD0057B557 /* SwiftMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F9FEC1DD81F960057B557 /* SwiftMQTT.framework */; };
+		B44F9FF01DD81FAD0057B557 /* SwiftMQTT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B44F9FEC1DD81F960057B557 /* SwiftMQTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B44F9FF91DD8BEA00057B557 /* IntrusionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F9FF81DD8BEA00057B557 /* IntrusionCell.swift */; };
+		B44F9FFB1DD8BF650057B557 /* IntrusionEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F9FFA1DD8BF650057B557 /* IntrusionEventController.swift */; };
+		B44F9FFD1DD8D7E10057B557 /* IntrusionEventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F9FFC1DD8D7E10057B557 /* IntrusionEventDetail.swift */; };
+		B44FA0011DD8E3A40057B557 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FA0001DD8E3A40057B557 /* Variables.swift */; };
+		B49F446A1DD6BCB000FA3BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44691DD6BCB000FA3BCC /* AppDelegate.swift */; };
+		B49F446F1DD6BCB000FA3BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49F446D1DD6BCB000FA3BCC /* Main.storyboard */; };
+		B49F44741DD6BCB000FA3BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49F44731DD6BCB000FA3BCC /* Assets.xcassets */; };
+		B49F44771DD6BCB100FA3BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49F44751DD6BCB100FA3BCC /* LaunchScreen.storyboard */; };
+		B49F44801DD6BD4F00FA3BCC /* Room.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B49F447E1DD6BD4F00FA3BCC /* Room.xcdatamodeld */; };
+		B49F44821DD6C2FF00FA3BCC /* HSBColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44811DD6C2FF00FA3BCC /* HSBColorPicker.swift */; };
+		B49F44861DD6DEEF00FA3BCC /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44851DD6DEEF00FA3BCC /* RoomController.swift */; };
+		B49F44941DD6E81700FA3BCC /* ProfileCollection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44901DD6E81700FA3BCC /* ProfileCollection+CoreDataProperties.swift */; };
+		B49F44951DD6E81700FA3BCC /* ProfileCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44911DD6E81700FA3BCC /* ProfileCollection.swift */; };
+		B49F44961DD6E81700FA3BCC /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44921DD6E81700FA3BCC /* Profile+CoreDataProperties.swift */; };
+		B49F44971DD6E81700FA3BCC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44931DD6E81700FA3BCC /* Profile.swift */; };
+		B49F44991DD6E8AD00FA3BCC /* ProfileMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44981DD6E8AD00FA3BCC /* ProfileMasterController.swift */; };
+		B49F449B1DD6E8D300FA3BCC /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F449A1DD6E8D300FA3BCC /* ProfileCell.swift */; };
+		B49F449D1DD6E90800FA3BCC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49F449C1DD6E90800FA3BCC /* CoreData.framework */; };
+		B49F449F1DD6EB7F00FA3BCC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F449E1DD6EB7F00FA3BCC /* UIColorExtension.swift */; };
+		B49F44A51DD6ECF800FA3BCC /* ProfileDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44A41DD6ECF800FA3BCC /* ProfileDetailController.swift */; };
+		B49F44A71DD7151F00FA3BCC /* ProfileListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F44A61DD7151F00FA3BCC /* ProfileListController.swift */; };
+		B49F44A91DD7219100FA3BCC /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = B49F44A81DD7219100FA3BCC /* TODO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B44F9FEB1DD81F960057B557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5471A8961BF228900079610F;
+			remoteInfo = SwiftMQTT;
+		};
+		B44F9FED1DD81F960057B557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5471A8A01BF228900079610F;
+			remoteInfo = SwiftMQTTTests;
+		};
+		B44F9FF11DD81FAD0057B557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5471A8951BF228900079610F;
+			remoteInfo = SwiftMQTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B44F9FF31DD81FAD0057B557 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B44F9FF01DD81FAD0057B557 /* SwiftMQTT.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMQTT.xcodeproj; path = "SwiftMQTT-1.0.2/SwiftMQTT/SwiftMQTT.xcodeproj"; sourceTree = "<group>"; };
+		B44F9FF81DD8BEA00057B557 /* IntrusionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrusionCell.swift; sourceTree = "<group>"; };
+		B44F9FFA1DD8BF650057B557 /* IntrusionEventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrusionEventController.swift; sourceTree = "<group>"; };
+		B44F9FFC1DD8D7E10057B557 /* IntrusionEventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrusionEventDetail.swift; sourceTree = "<group>"; };
+		B44FA0001DD8E3A40057B557 /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		B49F44661DD6BCB000FA3BCC /* smartroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49F44691DD6BCB000FA3BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B49F446E1DD6BCB000FA3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49F44731DD6BCB000FA3BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B49F44761DD6BCB100FA3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B49F44781DD6BCB100FA3BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49F447F1DD6BD4F00FA3BCC /* Room.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Room.xcdatamodel; sourceTree = "<group>"; };
+		B49F44811DD6C2FF00FA3BCC /* HSBColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSBColorPicker.swift; sourceTree = "<group>"; };
+		B49F44851DD6DEEF00FA3BCC /* RoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomController.swift; path = ../RoomController.swift; sourceTree = "<group>"; };
+		B49F44901DD6E81700FA3BCC /* ProfileCollection+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProfileCollection+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B49F44911DD6E81700FA3BCC /* ProfileCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCollection.swift; sourceTree = "<group>"; };
+		B49F44921DD6E81700FA3BCC /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B49F44931DD6E81700FA3BCC /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B49F44981DD6E8AD00FA3BCC /* ProfileMasterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMasterController.swift; sourceTree = "<group>"; };
+		B49F449A1DD6E8D300FA3BCC /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		B49F449C1DD6E90800FA3BCC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B49F449E1DD6EB7F00FA3BCC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B49F44A41DD6ECF800FA3BCC /* ProfileDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailController.swift; sourceTree = "<group>"; };
+		B49F44A61DD7151F00FA3BCC /* ProfileListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileListController.swift; path = ../ProfileListController.swift; sourceTree = "<group>"; };
+		B49F44A81DD7219100FA3BCC /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49F44631DD6BCB000FA3BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44F9FEF1DD81FAD0057B557 /* SwiftMQTT.framework in Frameworks */,
+				B49F449D1DD6E90800FA3BCC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B44F9FE71DD81F960057B557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44F9FEC1DD81F960057B557 /* SwiftMQTT.framework */,
+				B44F9FEE1DD81F960057B557 /* SwiftMQTTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49F445D1DD6BCB000FA3BCC = {
+			isa = PBXGroup;
+			children = (
+				B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */,
+				B49F449C1DD6E90800FA3BCC /* CoreData.framework */,
+				B49F44901DD6E81700FA3BCC /* ProfileCollection+CoreDataProperties.swift */,
+				B49F44911DD6E81700FA3BCC /* ProfileCollection.swift */,
+				B49F44921DD6E81700FA3BCC /* Profile+CoreDataProperties.swift */,
+				B49F44931DD6E81700FA3BCC /* Profile.swift */,
+				B49F44681DD6BCB000FA3BCC /* smartroom */,
+				B49F44671DD6BCB000FA3BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B49F44671DD6BCB000FA3BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49F44661DD6BCB000FA3BCC /* smartroom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49F44681DD6BCB000FA3BCC /* smartroom */ = {
+			isa = PBXGroup;
+			children = (
+				B49F44851DD6DEEF00FA3BCC /* RoomController.swift */,
+				B49F44691DD6BCB000FA3BCC /* AppDelegate.swift */,
+				B49F446D1DD6BCB000FA3BCC /* Main.storyboard */,
+				B44FA0001DD8E3A40057B557 /* Variables.swift */,
+				B44F9FFA1DD8BF650057B557 /* IntrusionEventController.swift */,
+				B44F9FFC1DD8D7E10057B557 /* IntrusionEventDetail.swift */,
+				B49F449A1DD6E8D300FA3BCC /* ProfileCell.swift */,
+				B44F9FF81DD8BEA00057B557 /* IntrusionCell.swift */,
+				B49F44A61DD7151F00FA3BCC /* ProfileListController.swift */,
+				B49F44981DD6E8AD00FA3BCC /* ProfileMasterController.swift */,
+				B49F44A41DD6ECF800FA3BCC /* ProfileDetailController.swift */,
+				B49F449E1DD6EB7F00FA3BCC /* UIColorExtension.swift */,
+				B49F44811DD6C2FF00FA3BCC /* HSBColorPicker.swift */,
+				B49F447E1DD6BD4F00FA3BCC /* Room.xcdatamodeld */,
+				B49F44731DD6BCB000FA3BCC /* Assets.xcassets */,
+				B49F44751DD6BCB100FA3BCC /* LaunchScreen.storyboard */,
+				B49F44781DD6BCB100FA3BCC /* Info.plist */,
+				B49F44A81DD7219100FA3BCC /* TODO */,
+			);
+			path = smartroom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49F44651DD6BCB000FA3BCC /* smartroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49F447B1DD6BCB100FA3BCC /* Build configuration list for PBXNativeTarget "smartroom" */;
+			buildPhases = (
+				B49F44621DD6BCB000FA3BCC /* Sources */,
+				B49F44631DD6BCB000FA3BCC /* Frameworks */,
+				B49F44641DD6BCB000FA3BCC /* Resources */,
+				B44F9FF31DD81FAD0057B557 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44F9FF21DD81FAD0057B557 /* PBXTargetDependency */,
+			);
+			name = smartroom;
+			productName = smartroom;
+			productReference = B49F44661DD6BCB000FA3BCC /* smartroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49F445E1DD6BCB000FA3BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bruno Luis Mendivez Vasquez";
+				TargetAttributes = {
+					B49F44651DD6BCB000FA3BCC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B49F44611DD6BCB000FA3BCC /* Build configuration list for PBXProject "smartroom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49F445D1DD6BCB000FA3BCC;
+			productRefGroup = B49F44671DD6BCB000FA3BCC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B44F9FE71DD81F960057B557 /* Products */;
+					ProjectRef = B44F9FE61DD81F960057B557 /* SwiftMQTT.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B49F44651DD6BCB000FA3BCC /* smartroom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B44F9FEC1DD81F960057B557 /* SwiftMQTT.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftMQTT.framework;
+			remoteRef = B44F9FEB1DD81F960057B557 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B44F9FEE1DD81F960057B557 /* SwiftMQTTTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftMQTTTests.xctest;
+			remoteRef = B44F9FED1DD81F960057B557 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B49F44641DD6BCB000FA3BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49F44771DD6BCB100FA3BCC /* LaunchScreen.storyboard in Resources */,
+				B49F44741DD6BCB000FA3BCC /* Assets.xcassets in Resources */,
+				B49F44A91DD7219100FA3BCC /* TODO in Resources */,
+				B49F446F1DD6BCB000FA3BCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49F44621DD6BCB000FA3BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49F44861DD6DEEF00FA3BCC /* RoomController.swift in Sources */,
+				B49F44971DD6E81700FA3BCC /* Profile.swift in Sources */,
+				B49F44801DD6BD4F00FA3BCC /* Room.xcdatamodeld in Sources */,
+				B44F9FF91DD8BEA00057B557 /* IntrusionCell.swift in Sources */,
+				B49F44821DD6C2FF00FA3BCC /* HSBColorPicker.swift in Sources */,
+				B44F9FFD1DD8D7E10057B557 /* IntrusionEventDetail.swift in Sources */,
+				B49F44A51DD6ECF800FA3BCC /* ProfileDetailController.swift in Sources */,
+				B49F44941DD6E81700FA3BCC /* ProfileCollection+CoreDataProperties.swift in Sources */,
+				B44FA0011DD8E3A40057B557 /* Variables.swift in Sources */,
+				B49F446A1DD6BCB000FA3BCC /* AppDelegate.swift in Sources */,
+				B49F44991DD6E8AD00FA3BCC /* ProfileMasterController.swift in Sources */,
+				B49F44961DD6E81700FA3BCC /* Profile+CoreDataProperties.swift in Sources */,
+				B44F9FFB1DD8BF650057B557 /* IntrusionEventController.swift in Sources */,
+				B49F449F1DD6EB7F00FA3BCC /* UIColorExtension.swift in Sources */,
+				B49F44A71DD7151F00FA3BCC /* ProfileListController.swift in Sources */,
+				B49F44951DD6E81700FA3BCC /* ProfileCollection.swift in Sources */,
+				B49F449B1DD6E8D300FA3BCC /* ProfileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B44F9FF21DD81FAD0057B557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMQTT;
+			targetProxy = B44F9FF11DD81FAD0057B557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B49F446D1DD6BCB000FA3BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49F446E1DD6BCB000FA3BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B49F44751DD6BCB100FA3BCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49F44761DD6BCB100FA3BCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B49F44791DD6BCB100FA3BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49F447A1DD6BCB100FA3BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49F447C1DD6BCB100FA3BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = smartroom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.smartroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B49F447D1DD6BCB100FA3BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = smartroom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.smartroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49F44611DD6BCB000FA3BCC /* Build configuration list for PBXProject "smartroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49F44791DD6BCB100FA3BCC /* Debug */,
+				B49F447A1DD6BCB100FA3BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49F447B1DD6BCB100FA3BCC /* Build configuration list for PBXNativeTarget "smartroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49F447C1DD6BCB100FA3BCC /* Debug */,
+				B49F447D1DD6BCB100FA3BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B49F447E1DD6BD4F00FA3BCC /* Room.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B49F447F1DD6BD4F00FA3BCC /* Room.xcdatamodel */,
+			);
+			currentVersion = B49F447F1DD6BD4F00FA3BCC /* Room.xcdatamodel */;
+			path = Room.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B49F445E1DD6BCB000FA3BCC /* Project object */;
+}
